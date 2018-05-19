@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="JBO Automation Script " parallel="false">
+
+    <parameter name="useCloudEnv" value="flase"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="65.0"/>
+    <parameter name="url" value="https://www.hbo.com"/>
+
+    <test name = "HBO Search">
+        <classes>
+            <!--<class name="search.SearchTest"/>-->
+            <!--<class name="click.on.element.ClickOnElementTest"/>-->
+            <!--<class name="follow.hbo.FollowHBOTest"/>-->
+            <!--<class name="navigate.NavigateTest"/>-->
+            <class name="search.SearchByExcelTest"/>
+            <!--<class name="drop.down.DropDownTest"/>-->
+        </classes>
+    </test>
+
+</suite>

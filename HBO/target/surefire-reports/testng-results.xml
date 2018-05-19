@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/nacer-zimu/IdeaProjects/UltimateWebAutomationFramework/HBO/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="JBO Automation Script " duration-ms="28538" started-at="2018-05-17T20:34:27Z" finished-at="2018-05-17T20:34:55Z">
+    <groups>
+    </groups>
+    <test name="HBO Search" duration-ms="28538" started-at="2018-05-17T20:34:27Z" finished-at="2018-05-17T20:34:55Z">
+      <class name="testclickonelement.TestClickOnElement">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="extentSetup" is-config="true" duration-ms="144" started-at="2018-05-17T20:34:27Z" finished-at="2018-05-17T20:34:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28ec166e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/nacer-zimu/IdeaProjects/UltimateWebAutomationFramework/HBO/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="setUp" is-config="true" duration-ms="4068" started-at="2018-05-17T20:34:27Z" finished-at="2018-05-17T20:34:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.hbo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="startExtent" is-config="true" duration-ms="5" started-at="2018-05-17T20:34:31Z" finished-at="2018-05-17T20:34:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclickonelement.TestClickOnElement.testBoxing()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testBoxing()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="testBoxing" duration-ms="1445" started-at="2018-05-17T20:34:31Z" finished-at="2018-05-17T20:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoxing -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterEachTestMethod" is-config="true" duration-ms="734" started-at="2018-05-17T20:34:32Z" finished-at="2018-05-17T20:34:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBoxing status=SUCCESS method=TestClickOnElement.testBoxing()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-05-17T20:34:33Z" finished-at="2018-05-17T20:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="setUp" is-config="true" duration-ms="4039" started-at="2018-05-17T20:34:33Z" finished-at="2018-05-17T20:34:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.hbo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-17T20:34:37Z" finished-at="2018-05-17T20:34:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclickonelement.TestClickOnElement.testKis()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testKis()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="testKis" duration-ms="2010" started-at="2018-05-17T20:34:37Z" finished-at="2018-05-17T20:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKis -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterEachTestMethod" is-config="true" duration-ms="209" started-at="2018-05-17T20:34:39Z" finished-at="2018-05-17T20:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testKis status=SUCCESS method=TestClickOnElement.testKis()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-05-17T20:34:39Z" finished-at="2018-05-17T20:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="setUp" is-config="true" duration-ms="3598" started-at="2018-05-17T20:34:39Z" finished-at="2018-05-17T20:34:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.hbo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMovies()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="testMovies" duration-ms="1523" started-at="2018-05-17T20:34:43Z" finished-at="2018-05-17T20:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMovies -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-17T20:34:43Z" finished-at="2018-05-17T20:34:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclickonelement.TestClickOnElement.testMovies()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterEachTestMethod" is-config="true" duration-ms="135" started-at="2018-05-17T20:34:44Z" finished-at="2018-05-17T20:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMovies status=SUCCESS method=TestClickOnElement.testMovies()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-05-17T20:34:45Z" finished-at="2018-05-17T20:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="setUp" is-config="true" duration-ms="4448" started-at="2018-05-17T20:34:45Z" finished-at="2018-05-17T20:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.hbo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSeries()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="testSeries" duration-ms="36" started-at="2018-05-17T20:34:49Z" finished-at="2018-05-17T20:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeries -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-05-17T20:34:49Z" finished-at="2018-05-17T20:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclickonelement.TestClickOnElement.testSeries()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterEachTestMethod" is-config="true" duration-ms="172" started-at="2018-05-17T20:34:49Z" finished-at="2018-05-17T20:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSeries status=SUCCESS method=TestClickOnElement.testSeries()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-05-17T20:34:49Z" finished-at="2018-05-17T20:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="setUp" is-config="true" duration-ms="4439" started-at="2018-05-17T20:34:49Z" finished-at="2018-05-17T20:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.hbo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-05-17T20:34:54Z" finished-at="2018-05-17T20:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclickonelement.TestClickOnElement.testSpecials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testSpecials()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="testSpecials" duration-ms="1465" started-at="2018-05-17T20:34:54Z" finished-at="2018-05-17T20:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecials -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterEachTestMethod" is-config="true" duration-ms="194" started-at="2018-05-17T20:34:55Z" finished-at="2018-05-17T20:34:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSpecials status=SUCCESS method=TestClickOnElement.testSpecials()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-05-17T20:34:55Z" finished-at="2018-05-17T20:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testclickonelement.TestClickOnElement@6121c9d6]" name="generateReport" is-config="true" duration-ms="38" started-at="2018-05-17T20:34:55Z" finished-at="2018-05-17T20:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testclickonelement.TestClickOnElement -->
+    </test> <!-- HBO Search -->
+  </suite> <!-- JBO Automation Script  -->
+</testng-results>

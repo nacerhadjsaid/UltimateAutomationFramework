@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [JBO Automation Script ]">
+  <parameter name="url" value="https://www.hbo.com"/>
+  <test thread-count="5" verbose="0" name="HBO Search(failed)">
+    <classes>
+      <class name="testsearch.TestSearch">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="oneElement"/>
+        </methods>
+      </class> <!-- testsearch.TestSearch -->
+    </classes>
+  </test> <!-- HBO Search(failed) -->
+</suite> <!-- Failed suite [JBO Automation Script ] -->

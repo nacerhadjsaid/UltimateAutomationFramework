@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testsearch.TestSearch">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="oneElement"/>
+          <include name="manyElemets"/>
+        </methods>
+      </class> <!-- testsearch.TestSearch -->
+      <class name="testclickonelement.TestClickOnElement">
+        <methods>
+          <include name="clickOnEelemtHBOP"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testclickonelement.TestClickOnElement -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

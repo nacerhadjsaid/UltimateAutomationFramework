@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="googlesheet.TestGoogleSheet">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="amzTS05TC01"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- googlesheet.TestGoogleSheet -->
+      <class name="search.TestSearch">
+        <methods>
+          <include name="testReadFromFile"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- search.TestSearch -->
+      <class name="search.TestLandingPage">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- search.TestLandingPage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
